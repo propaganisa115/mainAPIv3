@@ -85,12 +85,13 @@ WSGI_APPLICATION = 'mainAPI.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mainAPI',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        #'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd45erqe5b32488',
+        'USER': 'ioieybnljueets',
+        'PASSWORD': '267dc1a2c6d85ccbc8a41cd83c10b32ce5bf50fdb32ddd3ba7d3fd910115ab57',
+        'HOST': 'ec2-52-7-115-250.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
